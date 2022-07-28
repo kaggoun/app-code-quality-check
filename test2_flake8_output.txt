@@ -1,0 +1,15 @@
+test2.py:1:1: F401 'cProfile' imported but unused
+test2.py:2:1: F401 'glob' imported but unused
+test2.py:3:1: F401 'os' imported but unused
+test2.py:4:1: F401 'sys' imported but unused
+test2.py:5:1: F401 're' imported but unused
+test2.py:6:1: F401 'inspect' imported but unused
+test2.py:7:1: F401 'ast' imported but unused
+test2.py:8:1: F401 'inspect.getfullargspec' imported but unused
+test2.py:9:1: F401 'line_profiler' imported but unused
+test2.py:10:1: F401 'memory_profiler' imported but unused
+test2.py:11:1: F401 'gprof2dot' imported but unused
+test2.py:12:1: F401 'flake8' imported but unused
+test2.py:19:1: E303 too many blank lines (6)
+test2.py:25:1: E303 too many blank lines (3)
+test2.py:31:1: E303 too many blank lines (3)

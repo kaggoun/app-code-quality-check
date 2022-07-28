@@ -1,0 +1,24 @@
+Timer unit: 1e-06 s
+
+Total time: 4.6e-05 s
+File: test3.py
+Function: multiplication at line 15
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    15                                           @profile
+    16                                           def multiplication(a):
+    17         1          4.0      4.0      8.7      result = a*4
+    18         1         42.0     42.0     91.3      print(result)
+
+Total time: 5e-06 s
+File: test3.py
+Function: addition at line 21
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    21                                           @profile
+    22                                           def addition():
+    23         1          1.0      1.0     20.0      result = 3+4
+    24         1          4.0      4.0     80.0      print(result)
+

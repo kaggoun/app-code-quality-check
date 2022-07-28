@@ -1,0 +1,18 @@
+Filename: test4.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    15   40.199 MiB   40.199 MiB           1   @profile
+    16                                         def multiplication(a):
+    17   40.199 MiB    0.000 MiB           1       result = a*4
+    18   40.207 MiB    0.008 MiB           1       print(result)
+
+
+Filename: test4.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    21   40.207 MiB   40.207 MiB           1   @profile
+    22                                         def addition():
+    23   40.207 MiB    0.000 MiB           1       result = 3+4
+    24   40.207 MiB    0.000 MiB           1       print(result)
